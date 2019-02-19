@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Report xmlns="http://soap.sforce.com/2006/04/metadata">
+    <columns>
+        <field>WS_NAME</field>
+    </columns>
+    <columns>
+        <field>WS_CREATED</field>
+    </columns>
+    <columns>
+        <field>MEMBER_NAME</field>
+    </columns>
+    <columns>
+        <field>IS_ADMIN</field>
+    </columns>
+    <columns>
+        <field>IS_GROUP</field>
+    </columns>
+    <description>my own report</description>
+    <format>Tabular</format>
+    <name>venkat-svn</name>
+    <params>
+        <name>co</name>
+        <value>1</value>
+    </params>
+    <reportType>Workspace</reportType>
+    <scope>workspace</scope>
+    <showDetails>true</showDetails>
+    <showGrandTotal>true</showGrandTotal>
+    <showSubTotals>true</showSubTotals>
+</Report>
